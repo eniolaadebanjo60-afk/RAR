@@ -67,3 +67,81 @@ button{
     margin-top: 50px;
     background-color: black;
 }
+.body-content{
+   padding: 120px 50px;
+}
+.b2 h1{
+    font-size: 50px;
+    position: relative;
+    display: inline-block;
+    color: #8b3dff;
+}
+.b2 h1 span{
+    position: absolute;
+    top: -50px;
+    right: -80px;
+}
+.skill-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    gap: 40px;
+    padding: 40px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.skill-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.spinner-container{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.spinner{
+    width: 200px;
+    height: 200px;
+    border: 12px solid #e8ebff;
+    border-top-color: #6b7cff;
+    border-right-color: #6b7cff;
+    border-radius: 50%;
+}
+.percentage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 28px;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    color: #5a6b8c;
+}
+.skill-item p{
+    font-size: 16px;
+    color: #000; 
+}
+.about{
+    background-color: #1b1c37;
+    padding: 60px 60px;
+}
+.about h2{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+}
+.big-box{
+    
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    margin: 100px 300px;
+    border: 1px solid;
+    padding: 50px 50px;
+    border-radius: 30px;
+    background-color: white;
+}
+
